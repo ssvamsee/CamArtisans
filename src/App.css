@@ -304,6 +304,10 @@ h6{
 /* Used for AboutUS-homepage */
 .Aboutus{
     height: 500px;
+    width: 100%;
+    position: absolute;
+    top: 1000px;
+    left: 0px;
 }
 .Aboutusleftcontainer{
     position: absolute;
@@ -347,8 +351,8 @@ p.aboutusjontext{
     position: absolute;
     width: 612px;
     height: 465px;
-    left: 50%;
-    top: 113%; 
+    left: 950px !important;
+    top: 3%; 
 }
 .Aboutusimgcontainer{
     width: 612px;
