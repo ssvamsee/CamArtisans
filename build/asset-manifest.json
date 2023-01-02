@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fc266014.css",
+    "main.js": "/static/js/main.102f0ffe.js",
+    "static/js/787.33bbadf1.chunk.js": "/static/js/787.33bbadf1.chunk.js",
+    "static/media/aboutsus.png": "/static/media/aboutsus.b00dbf9e6ab824233ce1.png",
+    "static/media/productspage.png": "/static/media/productspage.96f95024aa6b54dfe137.png",
+    "static/media/ourservice1.png": "/static/media/ourservice1.91a9360b5d9e03fc1b90.png",
+    "static/media/ourservice2.png": "/static/media/ourservice2.493afbed3b86ad129363.png",
+    "static/media/ourservice3.png": "/static/media/ourservice3.13663948602dadccda50.png",
+    "static/media/Fashion.png": "/static/media/Fashion.a13b526b09382456260c.png",
+    "static/media/homepage-1.png": "/static/media/homepage-1.cee7fb2a84007cfc98c0.png",
+    "static/media/logo.png": "/static/media/logo.a6902a26d8894221bebb.png",
+    "index.html": "/index.html",
+    "main.fc266014.css.map": "/static/css/main.fc266014.css.map",
+    "main.102f0ffe.js.map": "/static/js/main.102f0ffe.js.map",
+    "787.33bbadf1.chunk.js.map": "/static/js/787.33bbadf1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc266014.css",
+    "static/js/main.102f0ffe.js"
+  ]
+}
