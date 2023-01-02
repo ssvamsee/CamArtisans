@@ -1,7 +1,8 @@
 import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon, MDBInput } from 'mdb-react-ui-kit';
 import icon from "../../Assets/Images/buttonicon.png";
-import camartisans from "../../Assets/Images/CamArtisans.png"
+import camartisans from "../../Assets/Images/CamArtisans.png";
+import fimg from "../../Assets/Images/Fimg.png"
 
 export default function Footer() {
   return (
@@ -18,7 +19,7 @@ export default function Footer() {
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='#!' className='footertextJON'>
                   Join Our Network
                 </a>
               </p>
@@ -96,7 +97,7 @@ export default function Footer() {
               </MDBCol>
 
               <MDBCol md='5' start>
-                <input contrast type='email' placeholder='Email Address' label='Email address' className='mb-4 footerinput'/><img className='footerbuttonicon' src={icon} alt="icon"/> 
+                <input contrast type='email' placeholder='Email Address' label='Email address' className='mb-4 footerinput'/><div className='footerbuttoniconcon'><img className='footerbuttonicon' src={icon} alt="icon"/></div> 
               </MDBCol>
 
               <MDBCol size="auto">
@@ -121,6 +122,14 @@ export default function Footer() {
               </h2> */}
               <div className='Footerimgcon'>
               <img className="Footerimg" src={camartisans} alt="camartisans"/>
+              </div>
+            </MDBCol>
+            <MDBCol md='3' lg='4' xl='3' className='mx-auto mt-5 ms-5'>
+              {/* <h2 className='text-uppercase fw-bold mb-4'>
+                
+              </h2> */}
+              <div className='Fimgcon'>
+              <img className="Fimg" src={fimg} alt="camartisans"/>
               </div>
             </MDBCol>
             <MDBCol>

@@ -114,11 +114,12 @@ a:hover::after { width: 100%; }
 .logoimage{
     width: 100%;
     height: 100%;
+    border-radius: 0%;
 }
 .buttonicon{
     content: "";
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 17px;
     display: inline-block;
     margin-left: 10px;
     vertical-align: middle;
@@ -129,7 +130,7 @@ a:hover::after { width: 100%; }
 /* .................. */
 /* Used for Footer */
 .Footer{
-    height: 600px;
+    height: 625px;
     width: 100%;
     background: #000000;
     position: absolute;
@@ -169,13 +170,13 @@ a:hover::after { width: 100%; }
     margin-left: 10%;
     opacity: 0.6;
 }
-.footerbuttonicon{
+.footerbuttoniconcon{
     content: "";
     position: absolute;
-    top: 95px;
-    left: 78%;
+    top: 96px;
+    left: 77.4%;
     width: 50px;
-    height: 50px;
+    height: 48px;
     display: inline-block;
     margin-left: 5px;
     vertical-align: middle;
@@ -183,6 +184,12 @@ a:hover::after { width: 100%; }
     background-position : center center;
     background-repeat:no-repeat;
     border-radius: 0px 10px 10px 0px;
+}
+.footerbuttonicon{
+    width:30px;
+    height: 25px;
+    margin-top: 17%;
+    margin-left: 10%;
 }
 h6{
     font-size: 16px;
@@ -197,17 +204,31 @@ h6{
     text-decoration: none !important;
 }
 .text-reset:hover{
+    color: #E63E28 !important;
+}
+.footertextJON{
     color: #DD1180 !important;
+    text-decoration: none !important;
+}
+.footertextJON:hover{
+    color: #E63E28 !important;
 }
 .Footerimgcon{
     width: 220px;
     height: 26px;
     position: relative;
-    left: 150%;
+    left: 105%;
     top: -20px;
 }
 .Footerimg{
     border-radius: 0px;
+}
+.Fimgcon{
+    width:400px;
+    height: 90px;
+    position: absolute;
+    top: 410px;
+    left: 800px;
 }
 .footericons{
     position: absolute;
@@ -215,16 +236,17 @@ h6{
     left: 70%;
 }
 .copyright{
-    margin-left: 35%;
+    margin-left: 23%;
     color: #FFFFFF;
     margin-top: -25%;
 }
 .tpc{
     display: flex;
-    width: auto;
-    margin-left: 60%;
-    margin-bottom: -2%;
-}
+    width: 500px !important;
+    margin-left: 57%;
+    margin-top: 30px !important;
+    margin-bottom: -30px;
+    }
 .tpctext{
     color: #FFFFFF;
     margin-left: 5%;
@@ -492,10 +514,10 @@ p.aboutusjontext{
 }
 .productbuttonicon{
     content: "";
-    width: 20px;
+    width: 25px;
     height: 20px;
     display: inline-block;
-    margin-left: 5px;
+    margin-left: 2px;
     vertical-align: middle;
     background-color: transparent;
     background-position : center center;

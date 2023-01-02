@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CamArtisans/static/css/main.fc266014.css",
-    "main.js": "/CamArtisans/static/js/main.d29769fe.js",
+    "main.css": "/CamArtisans/static/css/main.71a12faa.css",
+    "main.js": "/CamArtisans/static/js/main.e7d4bfb5.js",
     "static/js/787.33bbadf1.chunk.js": "/CamArtisans/static/js/787.33bbadf1.chunk.js",
     "static/media/aboutsus.png": "/CamArtisans/static/media/aboutsus.b00dbf9e6ab824233ce1.png",
     "static/media/productspage.png": "/CamArtisans/static/media/productspage.96f95024aa6b54dfe137.png",
@@ -12,12 +12,12 @@
     "static/media/homepage-1.png": "/CamArtisans/static/media/homepage-1.cee7fb2a84007cfc98c0.png",
     "static/media/logo.png": "/CamArtisans/static/media/logo.a6902a26d8894221bebb.png",
     "index.html": "/CamArtisans/index.html",
-    "main.fc266014.css.map": "/CamArtisans/static/css/main.fc266014.css.map",
-    "main.d29769fe.js.map": "/CamArtisans/static/js/main.d29769fe.js.map",
+    "main.71a12faa.css.map": "/CamArtisans/static/css/main.71a12faa.css.map",
+    "main.e7d4bfb5.js.map": "/CamArtisans/static/js/main.e7d4bfb5.js.map",
     "787.33bbadf1.chunk.js.map": "/CamArtisans/static/js/787.33bbadf1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc266014.css",
-    "static/js/main.d29769fe.js"
+    "static/css/main.71a12faa.css",
+    "static/js/main.e7d4bfb5.js"
   ]
 }
