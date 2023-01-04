@@ -12,14 +12,14 @@ function AgreeConfirming(){
         <>
             <div className="Signup">
                 <div className="hrline"></div>
-                <div className="SUh2"><h2>welcome to</h2></div>
+                <div className="ACh2"><h2>Almost There!</h2></div>
                 <div className="SUimgcon"><img className="SUimg" src={camartisans} alt="camartisans"/></div>
-                <div className="SUtextcon"><p className="SUtext">HIGH DEFINITION PICTURES NO COMPROMISE </p></div>
-                <div className="SUsubtextcon"><span className="Susubtext">Welcome to the photographer application process. Let’s begin by getting to know each other. Please provide your mobile number below to start.</span></div>
+                <div className="SUtextcon"><p className="SUtext">Spend Lesstime scheduling,</p><p className="SUtext">More time taking beautiful  memories  </p></div>
+                {/* <div className="SUsubtextcon"><span className="Susubtext">Welcome to the photographer application process. Let’s begin by getting to know each other. Please provide your mobile number below to start.</span></div> */}
                 <div className="Mobilecon">
                     <Form>
                         <Form.Group className="mb-3" controlId="formBasicEmail">
-                        <Form.Label className="Formtitlecon"><h2 className="Formtitle">Enter Your Mobile Number</h2></Form.Label>
+                        {/* <Form.Label className="Formtitlecon"><h2 className="Formtitle">Enter Your Mobile Number</h2></Form.Label> */}
                         {/* <Form.Control type="number" /> */}
                         <PhoneInput
                             international
@@ -29,12 +29,12 @@ function AgreeConfirming(){
                             value={value}
                             onChange={setValue}
                             className="inputfield"/>
-                        <Form.Text className="text-muted">We'll never share your details with anyone else.</Form.Text>
+                        <Form.Text className="text-muted">By creating an account, You agree to <span>CamArtisans</span> terms and conditions</Form.Text>
                         </Form.Group>
                     </Form>
-                    <div className="AHAAcon"><h2 className="Formtitle">Already Have an account?</h2><span className="SUsignin"> Sign In</span></div>
+                    {/* <div className="AHAAcon"><h2 className="Formtitle">Already Have an account?</h2><span className="SUsignin"> Sign In</span></div> */}
                 </div>
-                <div className="SUbuttoncon"><Nav.Link className="SUbut" as={Link} to="/Registered"><Button className="SUbutton">SEND OTP</Button></Nav.Link></div>
+                <div className="SUbuttoncon"><Nav.Link className="SUbut" as={Link} to="/Registered"><Button className="SUbutton">CONFIRM</Button></Nav.Link></div>
                 <div className="Rightlg"></div>
                 <div className="SUimgcon1"><img className="SUimg1" src={signupimg} alt="Signup Image"/></div>
             </div>

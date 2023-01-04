@@ -834,15 +834,15 @@ input:focus-visible {
 }
 /* ............... */
 /* Mobile Verification */
-.MVinput {
-  width: 50px;
-  height: 50px;
-  display: block;
-  border-radius: 10px !important;
-  border: 1px solid #d6d6d6;
-  text-align: center;
-}
-input {
+/* .MVinput{
+    width:50px;
+    height: 50px;
+    display: block;
+    border-radius: 10px !important;
+    border: 1px solid #D6D6D6;
+    text-align: center;
+} */
+.MVinput input {
   width: 50px !important;
   height: 50px !important;
   display: block;
@@ -878,10 +878,23 @@ input::-webkit-inner-spin-button {
 .OTPSeparator {
   color: white !important;
 }
+/* Used for Agree-Confirming */
+.ACh2 {
+  position: relative;
+  top: 139px;
+  left: 143px;
+  width: 235px;
+  height: 43px;
+  color: #333333;
+}
 
 /* User Information Styles */
 
-.UIInputfeild {
-  width: 550;
-  height: 50;
+.UIInputFeild {
+  width: 550px !important;
+  height: 50px !important;
+}
+
+.UIFormTitles {
+  font-size: 14;
 }

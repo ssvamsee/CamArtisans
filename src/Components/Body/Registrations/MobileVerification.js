@@ -36,6 +36,7 @@ export default class MobileVerification extends Component{
                                 onChange={this.handleChange}
                                 numInputs={4}
                                 separator={<span className="OTPSeparator">{"--"}</span>}
+                                className="MVinput"
                                 />
                             </div>
                         </Form.Group>
