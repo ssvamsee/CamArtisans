@@ -1,8 +1,10 @@
 import { useState } from "react";
-import { Form } from "react-bootstrap";
-import PhoneInput from 'react-phone-number-input'
-import camartisans from "../../../Assets/Images/CamArtisans-1.png"
-import 'react-phone-number-input/style.css'
+import { Button, Form, Nav } from "react-bootstrap";
+import PhoneInput from 'react-phone-number-input';
+import camartisans from "../../../Assets/Images/CamArtisans-1.png";
+import 'react-phone-number-input/style.css';
+import signupimg from "../../../Assets/Images/signup.png"
+import { Link } from "react-router-dom";
 
 function Signup(){
     const[value,setValue]=useState();
@@ -32,6 +34,9 @@ function Signup(){
                     </Form>
                     <div className="AHAAcon"><h2 className="Formtitle">Already Have an account?</h2><span className="SUsignin"> Sign In</span></div>
                 </div>
+                <div className="SUbuttoncon"><Nav.Link className="SUbut" as={Link} to="/MobileVerification"><Button className="SUbutton">SEND OTP</Button></Nav.Link></div>
+                <div className="Rightlg"></div>
+                <div className="SUimgcon1"><img className="SUimg1" src={signupimg} alt="Signup Image"/></div>
             </div>
         </>
     );

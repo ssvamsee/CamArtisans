@@ -9,7 +9,7 @@ import MobileVerification from "./Components/Body/Registrations/MobileVerificati
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <MobileVerification />
+    <App />
   </React.StrictMode>
 );
 

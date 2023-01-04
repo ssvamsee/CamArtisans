@@ -668,7 +668,6 @@ p.aboutusjontext{
 .Signup{
     width: 1440px;
     height: 944px;
-    border: red 1px solid;
     margin: auto;
 }
 /* .hrline{
@@ -798,6 +797,39 @@ input:focus-visible{
   -webkit-text-fill-color: transparent;
   font-weight: 600;
 }
+.SUbuttoncon{
+    width: 550px;
+    height: 50px;
+    position: relative;
+    top: 350px;
+    left: 143px;
+}
+.SUbut{
+    left: 1px;
+}
+.SUbutton{
+    width: 550px;
+    height: 50px; 
+    border-radius: 10px 10px 0px 0px !important;
+    background: linear-gradient(90deg, #203867 0%, #DD1180 95.83%) !important;
+    font-weight: 600px !important;
+}
+.Rightlg{
+    position: relative;
+    width: 470px;
+    height: 944px;
+    left: 970px;
+    top: -325px;
+    background: linear-gradient(169.16deg, #263768 1.9%, #DD1180 100.54%);
+}
+.SUimgcon1{
+    width: 754px;
+    height: 738px;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+}
+
 
 
 

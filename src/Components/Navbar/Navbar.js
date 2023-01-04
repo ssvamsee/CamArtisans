@@ -7,6 +7,7 @@ import Button from 'react-bootstrap/Button';
 import Logo from './Logo';
 import icon from '../../Assets/Images/buttonicon.png'
 import Signup from '../Body/Registrations/Signup';
+import MobileVerification from '../Body/Registrations/MobileVerification';
 
 function NavBar() {
   return (
@@ -33,6 +34,7 @@ function NavBar() {
             <Route path='/HomePage' element = {<Home></Home>}></Route>
             <Route path='/CamArtisans/' element = {<Home></Home>}></Route>
             <Route path='/Signup' element={<Signup></Signup>}/>
+            <Route path='/MobileVerification' element={<MobileVerification></MobileVerification>}/>
         </Routes>
     </div>
     </>
