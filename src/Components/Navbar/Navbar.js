@@ -6,6 +6,7 @@ import Home from '../Body/Homepage/Home';
 import Button from 'react-bootstrap/Button';
 import Logo from './Logo';
 import icon from '../../Assets/Images/buttonicon.png'
+import Signup from '../Body/Registrations/Signup';
 
 function NavBar() {
   return (
@@ -31,7 +32,7 @@ function NavBar() {
             <Route path='*' element={<Home></Home>}></Route>
             <Route path='/HomePage' element = {<Home></Home>}></Route>
             <Route path='/CamArtisans/' element = {<Home></Home>}></Route>
-
+            <Route path='/Signup' element={<Signup></Signup>}/>
         </Routes>
     </div>
     </>

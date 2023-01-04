@@ -116,7 +116,7 @@ export default function Footer() {
           <span>Get connected with us on social networks:</span>
         </div> */}
         <MDBRow className='mt-3'>
-         <MDBCol md='3' lg='4' xl='3' className='mx-auto mt-5 ms-5'>
+         <MDBCol md='3' lg='4' xl='3' className='mx-auto mt-5 ms-4'>
               {/* <h2 className='text-uppercase fw-bold mb-4'>
                 
               </h2> */}

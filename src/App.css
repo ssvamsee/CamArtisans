@@ -34,13 +34,14 @@ p{
 /* Used for navbar */
 .Navbar_main{
     box-sizing: border-box;
-    position: absolute !important;
+    position: sticky !important;
     width: 100%;
     height: 80px;
     left: 0px;
     top: -1px;
     background: #E5E7F3 !important;
     border: 0.3px solid #FFFFFF;
+    z-index: 9;
 }
 .nav-link{
     color: #666666 !important;
@@ -254,9 +255,9 @@ h6{
 
 /* Used for Home page */
 .homepageimagecontainer{
-    /* position: absolute; */
+    position: absolute;
     width: 100%;
-    height: 100%;
+    height: 950px;
     left: 0px;
     top: 0px;
     border: 0.3px solid #F5F5F5;
@@ -297,6 +298,10 @@ h6{
     display: flex;
     align-items: center;
     color: #FFFFFF;
+    border: none !important;
+}
+.button1{
+    background-color: transparent !important;
     border: none !important;
 }
 /* ..................... */
@@ -658,7 +663,141 @@ p.aboutusjontext{
     top:1100px;
     left: 49.5%;
 }
+/* ................... */
+/* Used for Signup */
+.Signup{
+    width: 1440px;
+    height: 944px;
+    border: red 1px solid;
+    margin: auto;
+}
+/* .hrline{
+    position: relative;
+width: 523px;
+height: 6px;
+left: 143px;
+top: 59px;
 
+background: #D2137F;
+transform: matrix(1, 0, 0, -1, 0, 0);
+} */
+.hrline{
+    background: #D2137F;
+    position:relative;
+    width: 523px;
+    height: 6px;
+    left: 143px;
+    top: 59px;
+}
+.hrline:after{
+    content:'';
+    background: #3E326B;
+    width:44px;
+    height:6px;
+    position:absolute; 
+}
+.SUh2{
+    position: relative;
+    top:139px;
+    left: 143px;
+    width: 215px;
+    height: 43px;
+    color: #333333;
+}
+.SUimgcon{
+    position: relative;
+    width: 230px;
+    height: 28px;
+    left: 143px;
+    top: 160px;
+}
+.SUimg{
+    width: 100%;
+    height: 100%;
+    border-radius: 0%;
+}
+.SUtextcon{
+    position: relative;
+    top:202px;
+    left:143px;
+    width: 515px;
+    height: 39px;
+}
+.SUtext{
+    font-size: 24px !important;
+    font-weight: 400;
+    color: #333333;
+}
+.SUsubtextcon{
+    position: relative;
+    top:225px;
+    left: 143px;
+    width: 485px;
+    height: 36px;
+}
+.Susubtext{
+    font-size: 12px;
+    color: #666666;
+}
+.PhoneInput{
+    width:550px;
+    height: 50px;
+}
+.Mobilecon{
+    position: relative;
+    top:270px;
+    left: 143px;
+    display: flex;
+    flex-direction: row;
+}
+.Formtitlecon{
+    display: block;
+    width: 210px;
+    height: 23px;
+}
+.Formtitle{
+    font-size: 14px !important;
+    font-weight: 600px !important;
+    color: #333333 !important;
+    display: inline;
+}
+.inputfield{
+    display: block;
+    width: 550px;
+    height: 50px;
+    border: 1px solid #D6D6D6;
+    border-radius: 10px;
+}
+.PhoneInputInput{
+    border: none !important;
+}
+
+.PhoneInputCountryIcon--border{
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+.PhoneInputCountryIcon{
+    border-radius: 0% !important;
+    width: 40px !important;
+}
+input:focus-visible{
+    outline: none !important;
+}
+.AHAAcon{
+    position: absolute;
+    top: 130px;
+    width: 260px;
+    height: 23px;
+    display: inline;
+    font-weight: 600;
+}
+
+.SUsignin{
+    background: -webkit-linear-gradient(45deg,#A259FF, #FF7262);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
 
 
 
