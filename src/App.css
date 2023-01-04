@@ -829,6 +829,42 @@ input:focus-visible{
     left: 50%;
     top: 15%;
 }
+/* ............... */
+/* Mobile Verification */
+.MVinput{
+    width:50px;
+    height: 50px;
+    display: block;
+    border-radius: 10px !important;
+    border: 1px solid #D6D6D6;
+    text-align: center;
+}
+.Mvinputcon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;   
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.MVtextcon{
+    position: absolute;
+    top: 130px;
+    width: 300px;
+    height: 23px;
+    display: inline;
+    font-weight: 600;
+}
+.MVimgcon1{
+    width: 669px;
+    height: 851px;
+    position: absolute;
+    left: 50%;
+    top: 150px;
+}
 
 
 
