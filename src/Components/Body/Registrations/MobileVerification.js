@@ -42,7 +42,7 @@ export default class MobileVerification extends Component{
                     </Form>
                     <div className="MVtextcon"><h2 className="Formtitle">Didn't Receive the Code?</h2><span className="SUsignin"> Request Again</span></div>
                 </div>
-                <div className="SUbuttoncon"><Nav.Link className="SUbut" as={Link} to="/MobileVerification"><Button className="SUbutton">Verify and create account</Button></Nav.Link></div>
+                <div className="SUbuttoncon"><Nav.Link className="SUbut" as={Link} to="/UserInformation"><Button className="SUbutton">Verify and create account</Button></Nav.Link></div>
                 <div className="Rightlg"></div>
                 <div className="MVimgcon1"><img className="MVimg1" src={MVimg} alt="Signup Image"/></div>
             </div>

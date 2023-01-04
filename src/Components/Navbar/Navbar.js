@@ -8,6 +8,12 @@ import Logo from './Logo';
 import icon from '../../Assets/Images/buttonicon.png'
 import Signup from '../Body/Registrations/Signup';
 import MobileVerification from '../Body/Registrations/MobileVerification';
+import Registered from '../Body/Registrations/Registered';
+import AgreeConfirming from '../Body/Registrations/Agree-Confirming';
+import ForgotPassword from '../Body/Registrations/ForgotPassword';
+import Login from '../Body/Registrations/Login';
+import ResetPassword from '../Body/Registrations/ResetPassword';
+import UserInformation from '../Body/Registrations/UserInformation';
 
 function NavBar() {
   return (
@@ -35,6 +41,14 @@ function NavBar() {
             <Route path='/CamArtisans/' element = {<Home></Home>}></Route>
             <Route path='/Signup' element={<Signup></Signup>}/>
             <Route path='/MobileVerification' element={<MobileVerification></MobileVerification>}/>
+            <Route path='/Registered' element={<Registered/>}/>
+            <Route path='/Agree&Confirming' element={<AgreeConfirming/>}/>
+            <Route path='/ForgotPassword' element={<ForgotPassword/>}/>
+            <Route path='/Login' element={<Login/>}/>
+            <Route path='/ResetPassword' element={<ResetPassword/>}/>
+            <Route path='/UserInformation' element={<UserInformation/>}/>
+
+
         </Routes>
     </div>
     </>
