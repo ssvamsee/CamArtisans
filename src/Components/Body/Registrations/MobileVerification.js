@@ -162,7 +162,7 @@
 // }
 // export default MobileVerification;
 
-
+import React, { Component } from "react";
 import { useState } from "react";
 import { Button, Form, Nav } from "react-bootstrap";
 import PhoneInput from 'react-phone-number-input';
@@ -171,10 +171,14 @@ import 'react-phone-number-input/style.css';
 import signupimg from "../../../Assets/Images/signup.png"
 import { Link } from "react-router-dom";
 import MVimg from "../../../Assets/Images/MV.png"
+import OtpInput from 'react-otp-input';
 
-function Signup(){
-    const[value,setValue]=useState();
-        return(
+export default class MobileVerification extends Component{
+    state = { otp: '' };
+
+  handleChange = (otp) => this.setState({ otp });
+  render(){    
+  return(
         <>
             <div className="Signup">
                 <div className="hrline"></div>
@@ -185,21 +189,19 @@ function Signup(){
                 <div className="Mobilecon">
                     <Form>
                         <Form.Group className="mb-3" controlId="formBasicEmail">
-                        <Form.Label className="Formtitlecon"><h2 className="Formtitle">Verify Your Phone Number</h2></Form.Label>
-                        {/* <Form.Control type="number" /> */}
-                        {/* <PhoneInput
-                            international
-                            countryCallingCodeEditable={false}
-                            defaultCountry="IN"
-                            initialValueFormat="national"
-                            value={value}
-                            onChange={setValue}
-                            className="inputfield"/> */}
+                        <Form.Label className="Formtitlecon"><h2 className="Formtitle">Verify Your Phone Number </h2></Form.Label>
                             <div className="Mvinputcon">
-                            <input type="number" maxLength="1" className="MVinput"></input>
+                            {/* <input type="number" maxLength="1" className="MVinput"></input>
                             <input type="number" maxlength="1"className="MVinput"></input>
                             <input type="number" maxlength="1" className="MVinput"></input>
-                            <input type="number" maxlength="1" className="MVinput"></input>
+                            <input type="number" maxlength="1" className="MVinput"></input> */}
+                              <OtpInput
+                                value={this.state.otp}
+                                onChange={this.handleChange}
+                                numInputs={4}
+                                separator={<span className="OTPSeparator">{"--"}</span>}
+                                // className="MVinput"
+                                />
                             </div>
                         {/* <Form.Text className="text-muted">We'll never share your details with anyone else.</Form.Text> */}
                         </Form.Group>
@@ -212,5 +214,5 @@ function Signup(){
             </div>
         </>
     );
+  }
 }
-export default Signup;

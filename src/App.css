@@ -839,11 +839,18 @@ input:focus-visible{
     border: 1px solid #D6D6D6;
     text-align: center;
 }
+input{
+    width:50px !important;
+    height: 50px !important;
+    display: block;
+    border-radius: 10px !important;
+    border: 1px solid #D6D6D6;
+}
 .Mvinputcon{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 300px;   
+    width: 500px;   
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -864,6 +871,9 @@ input::-webkit-inner-spin-button {
     position: absolute;
     left: 50%;
     top: 150px;
+}
+.OTPSeparator{
+    color: white !important;
 }
 
 
