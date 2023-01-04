@@ -884,6 +884,45 @@ input::-webkit-inner-spin-button {
     height: 43px;
     color: #333333;
 }
+.Agreebox{
+    width: 50px !important;
+    height: 50px !important;
+    margin-right: 2% !important;
+    top: 50px !important;
+}
+/* .form-check-input:checked{
+    background:linear-gradient(90deg, #203867 0%, #DD1180 95.83%)!important ;
+} */
+
+.Agreebox label{
+    font-weight: 600;
+}
+.Agreetextcon{
+    position: relative;
+    top: -40px;
+    left: 70px;
+    width: 80px;
+    height: 23px;
+}
+.Agreetext{
+    font-weight: 600;
+    color: #333333;
+    /* font-size: 14px; */
+}
+.ACtextcon{
+    position: relative;
+    top:202px;
+    left:143px;
+    width: 515px;
+    height: 39px;
+}
+.acimgcon1{
+    width: 680px;
+    height: 731px;
+    position: absolute;
+    left: 50%;
+    top: 28%;
+}
 
 
 
