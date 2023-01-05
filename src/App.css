@@ -923,6 +923,26 @@ input::-webkit-inner-spin-button {
     left: 50%;
     top: 28%;
 }
+/* Used for Registered */
+.REiconcon{
+    position: relative;
+    width: 160px;
+    height: 190px;
+    left: 300px;
+    top: 260px;
+}
+.REicon{
+    width: 100%;
+    height: 100%;
+    border-radius: 0%;
+}
+.REimgcon1{
+    width: 550px;
+    height: 885px;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+}
 
 
 
