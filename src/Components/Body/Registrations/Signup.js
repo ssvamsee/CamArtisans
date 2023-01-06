@@ -32,7 +32,7 @@ function Signup(){
                         <Form.Text className="text-muted">We'll never share your details with anyone else.</Form.Text>
                         </Form.Group>
                     </Form>
-                    <div className="AHAAcon"><h2 className="Formtitle">Already Have an account?</h2><span className="SUsignin"> Sign In</span></div>
+                    <div className="AHAAcon"><h2 className="Formtitle">Already Have an account?</h2><Nav.Link className="SUbut" as={Link} to="/Login"> <span className="SUsignin"> Sign In</span></Nav.Link></div>
                 </div>
                 <div className="SUbuttoncon"><Nav.Link className="SUbut" as={Link} to="/MobileVerification"><Button className="SUbutton">SEND OTP</Button></Nav.Link></div>
                 <div className="Rightlg"></div>

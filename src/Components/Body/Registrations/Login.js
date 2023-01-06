@@ -31,7 +31,7 @@ function Login(){
                
               </Form.Group>
             </Form>
-                    <div className="LoginFPcon"><h2 className="FPtitle SUsignin">Forgot Password?</h2></div>
+                    <div className="LoginFPcon"><Nav.Link className="SUbut" as={Link} to="/ForgotPassword"><h2 className="FPtitle SUsignin">Forgot Password?</h2></Nav.Link></div>
                 </div>
                 <div className="SUbuttoncon"><Nav.Link className="SUbut" as={Link} to="/home"><Button className="SUbutton">SIGN IN</Button></Nav.Link></div>
                 <div className="Loginsignupcon">

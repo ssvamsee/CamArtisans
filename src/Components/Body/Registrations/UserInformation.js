@@ -27,14 +27,14 @@ export default class UserInformation extends Component {
           <div className="SUtextcon">
             <p className="SUtext">HIGH DEFINITION PICTURES NO COMPROMISE </p>
           </div>
-          <div className="SUsubtextcon">
+          {/* <div className="SUsubtextcon">
             <span className="Susubtext">
               Welcome to the photographer application process. Let’s begin by
               getting to know each other. Please provide your mobile number
               below to start.
             </span>
-          </div>
-          <div className="Mobilecon">
+          </div> */}
+          <div className="UIcon">
             <Form>
               <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label className="Formtitlecon">

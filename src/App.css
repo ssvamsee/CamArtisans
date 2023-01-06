@@ -755,7 +755,7 @@ transform: matrix(1, 0, 0, -1, 0, 0);
 }
 .Formtitlecon {
   display: block;
-  width: 210px;
+  width: 250px;
   height: 23px;
 }
 .Formtitle {
@@ -975,6 +975,13 @@ input::-webkit-inner-spin-button {
   top: -623px;
   background: linear-gradient(169.16deg, #263768 1.9%, #dd1180 100.54%);
 }
+.UIcon {
+  position: relative;
+  top: 220px;
+  left: 143px;
+  display: flex;
+  flex-direction: row;
+}
 
 .UIbutton {
   position: absolute;
@@ -988,7 +995,7 @@ input::-webkit-inner-spin-button {
   width: 550px;
   height: 50px;
   position: relative;
-  top: 300px;
+  top: 240px;
   left: 143px;
 }
 /* ............. */
@@ -1031,4 +1038,21 @@ input::-webkit-inner-spin-button {
   position: absolute;
   left: 50%;
   top: 17%;
+}
+/* .............. */
+/* Used for Forgot/Reset Password */
+.FPh2 {
+  position: relative;
+  top: 139px;
+  left: 143px;
+  width: 315px;
+  height: 43px;
+  color: #333333;
+}
+.SUsubtextcon1{
+  position: relative;
+  top: 200px;
+  left: 143px;
+  width: 485px;
+  height: 36px;
 }

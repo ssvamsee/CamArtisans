@@ -14,8 +14,15 @@ import ForgotPassword from '../Body/Registrations/ForgotPassword';
 import Login from '../Body/Registrations/Login';
 import ResetPassword from '../Body/Registrations/ResetPassword';
 import UserInformation from '../Body/Registrations/UserInformation';
+import Ourservices from '../Body/Homepage/Ourservices';
 
 function NavBar() {
+  const handleClickScroll = () => {
+    const element = document.getElementById('services');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <>
     <Navbar collapseOnSelect expand="lg" variant="dark" className='Navbar_main'>
@@ -26,7 +33,7 @@ function NavBar() {
           <Nav className="ms-auto my-2 my-xxl-0 gap-4 me-5">
           <Nav.Link className='navbar_link' as={Link} to="/HomePage" eventKey="1">Home</Nav.Link>
           <Nav.Link className='navbar_link' as={Link} to="/About" eventKey="1">About</Nav.Link>
-          <Nav.Link className='navbar_link' as={Link} to="/Services" eventKey="1">Services</Nav.Link>
+          <Nav.Link className='navbar_link' as={Link} to="/Services" eventKey="1" onClick={handleClickScroll}>Services</Nav.Link>
           <Nav.Link className='navbar_link' as={Link} to="/Contact" eventKey="1">Contact</Nav.Link>       
           </Nav>
           <Button className='loginbutton'>Login<img className='buttonicon' src={icon} alt="icon"/></Button>
@@ -47,8 +54,7 @@ function NavBar() {
             <Route path='/Login' element={<Login/>}/>
             <Route path='/ResetPassword' element={<ResetPassword/>}/>
             <Route path='/UserInformation' element={<UserInformation/>}/>
-
-
+            <Route path='/Services' element={<Ourservices/>}/>
         </Routes>
     </div>
     </>

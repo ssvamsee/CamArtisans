@@ -5,7 +5,7 @@ import img3 from '../../../Assets/Images/ourservice3.png';
 function Ourservices(){
     return(
         <>
-        <div className="Ourservices">
+        <div className="Ourservices" id="services">
             <div className="Ouservicestitle">
                 <h2>OUR SERVICES</h2>
                 <div className="ourservicehr"></div>
