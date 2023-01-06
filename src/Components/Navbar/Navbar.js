@@ -36,7 +36,7 @@ function NavBar() {
           <Nav.Link className='navbar_link' as={Link} to="/Services" eventKey="1" onClick={handleClickScroll}>Services</Nav.Link>
           <Nav.Link className='navbar_link' as={Link} to="/Contact" eventKey="1">Contact</Nav.Link>       
           </Nav>
-          <Button className='loginbutton'>Login<img className='buttonicon' src={icon} alt="icon"/></Button>
+          <Nav.Link className="navbut" as={Link} to="/Login">  <Button className='loginbutton'>Login<img className='buttonicon' src={icon} alt="icon"/></Button></Nav.Link>
         </Navbar.Collapse>
       </Container>
     </Navbar>

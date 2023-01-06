@@ -1,5 +1,6 @@
 * {
   font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
 }
 img {
   width: 100%;
@@ -101,6 +102,9 @@ a:hover::after {
   color: #ffffff;
   border: none !important;
   display: inline-block;
+}
+.navbut{
+  top:-40px
 }
 .logo {
   position: absolute !important;
