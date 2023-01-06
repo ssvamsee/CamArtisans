@@ -25,8 +25,8 @@ function NavBar() {
   };
   return (
     <>
-    <Navbar collapseOnSelect expand="lg" variant="dark" className='Navbar_main'>
-      <Container>
+    <Navbar collapseOnSelect expand="md" variant="dark" className='Navbar_main'>
+      <Container className='Navbarcon'>
         <Navbar.Brand href="#"> <Logo></Logo> </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

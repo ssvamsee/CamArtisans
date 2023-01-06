@@ -13,6 +13,8 @@ import Nav from 'react-bootstrap/Nav';
 function Home(props){
     return(
         <>
+        <div className="Homepage">
+            <div className="Homepagecontainer">
         <div className="homepageimagecontainer">
             <img className="homepageimage" src={homepageimage} alt='homepageimage'/>
         </div>
@@ -24,6 +26,8 @@ function Home(props){
             <p>Book a single on-demand photoshoot in as little as 60 seconds, for any business or personal need. No minimums, pay as you go.</p>
         </div>
         <Nav.Link className='HPbutton' as={Link} to="/Signup"><Button className='button1'> Need a photoshoot right now<img className='buttonicon' src={icon} alt="icon"/></Button></Nav.Link>
+        </div>
+        </div>
         </div>
         <Aboutus></Aboutus>
         <Ourservices></Ourservices>

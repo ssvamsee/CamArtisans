@@ -65,7 +65,7 @@ export default class MobileVerification extends Component {
               <Button className="SUbutton">Verify and create account</Button>
             </Nav.Link>
           </div>
-          <div className="Rightlg"></div>
+          <div className="MVRightlg"></div>
           <div className="MVimgcon1">
             <img className="MVimg1" src={MVimg} alt="Signup Image" />
           </div>

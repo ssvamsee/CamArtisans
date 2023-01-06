@@ -6,6 +6,7 @@ function Product(){
     return(
         <>
             <div className="Product">
+                <div className="Productcontainer">
                 <div className="Producttitle">
                     <h2 className="ProductTitle">Product</h2>
                     <div className="Producthr"></div>
@@ -27,6 +28,7 @@ function Product(){
                         <p className="productcon1text">Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
                         <Button className='productbutton'>Learn more<img className='productbuttonicon' src={icon} alt="icon"/></Button>
                     </div>
+                </div>
                 </div>
             </div>
         </>

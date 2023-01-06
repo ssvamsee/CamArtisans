@@ -5,6 +5,7 @@ function Letsgo(){
     return(
         <>
         <div className="Letsgo">
+            <div className='LetsgoContainer'>
             <div className="Letsgotitle">
                     <h2 className="LetsgoTitle">Lets go</h2>
                     <div className="Letsgohr"></div>
@@ -168,6 +169,7 @@ function Letsgo(){
                 </div>
             </div>
             <div className='Letsgoseeall'><p>See All</p></div>
+            </div>
         </div>
         </>
     );

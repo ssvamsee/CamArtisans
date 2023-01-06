@@ -38,12 +38,17 @@ p {
   position: sticky !important;
   width: 100%;
   height: 80px;
-  left: 0px;
+  /* left: 0px; */
   top: -1px;
   background: #e5e7f3 !important;
   border: 0.3px solid #ffffff;
   z-index: 9;
 }
+.Navbarcon{
+  width: 1440px;
+  /* background-color: red; */
+}
+
 .nav-link {
   color: #666666 !important;
   font-size: 14px !important;
@@ -53,7 +58,7 @@ p {
   position: relative !important;
   display: flex !important;
   align-items: center !important;
-  right: 200px !important;
+  right: 60px !important;
 }
 a:hover {
   color: #666666 !important;
@@ -117,7 +122,7 @@ a:hover::after {
   width: 170px;
   height: 60px;
   position: absolute;
-  left: 183px;
+  left: 300px;
   top: 8px;
 }
 .logoimage {
@@ -139,18 +144,21 @@ a:hover::after {
 /* .................. */
 /* Used for Footer */
 .Footer {
-  height: 625px;
+  height: 630px;
   width: 100%;
   background: #000000;
-  position: absolute;
-  top: 4000px;
+  position: relative;
+  overflow: hidden;
+  /* top:4000px */
+  /* bottom: 0; */
 }
+
 .Footersubscribe {
   width: 350px;
   height: 260px;
   background: rgb(28, 27, 27);
   mix-blend-mode: normal;
-  margin-top: -20px !important;
+  margin-top: 20px !important;
   /* opacity: 0.1; */
 }
 .Footerform {
@@ -178,12 +186,13 @@ a:hover::after {
   font-weight: 400;
   margin-left: 10%;
   opacity: 0.6;
+  margin-top: -20%;
 }
 .footerbuttoniconcon {
   content: "";
-  position: absolute;
-  top: 96px;
-  left: 77.4%;
+  position: relative;
+  top: -73px;
+  left: 108.7%;
   width: 50px;
   height: 48px;
   display: inline-block;
@@ -236,7 +245,7 @@ h6 {
   width: 400px;
   height: 90px;
   position: absolute;
-  top: 410px;
+  top: 440px;
   left: 800px;
 }
 .footericons {
@@ -262,23 +271,37 @@ h6 {
 }
 
 /* Used for Home page */
-.homepageimagecontainer {
-  position: absolute;
+.Homepage {
+  position: relative;
   width: 100%;
   height: 950px;
-  left: 0px;
-  top: 0px;
+  margin: auto;
+  background-color: #E5E7F3;
   border: 0.3px solid #f5f5f5;
 }
+.Homepagecontainer{
+  width: 1440px;
+  height: 950px;
+  margin: auto;
+}
+.homepageimagecontainer{
+  position: relative;
+  width: 800px;
+  height: 950px;
+  left : 640px;
+
+}
 .homepageimage {
+  /* position: relative; */
   width: 100%;
   height: 100%;
+  margin: auto;
 }
 .HPtextcontainer {
   position: absolute;
   width: 360px;
   height: 39px;
-  left: 183px;
+  left: 300px;
   top: 350px;
 }
 .HPtextcon1-h2 {
@@ -317,16 +340,17 @@ h6 {
 /* Used for AboutUS-homepage */
 .Aboutus {
   height: 500px;
-  width: 100%;
-  position: absolute;
-  top: 1000px;
+  width: 1440px;
+  position: relative;
+  /* top: 1000px; */
   left: 0px;
+  margin: auto;
 }
 .Aboutusleftcontainer {
   position: absolute;
   width: 612px;
   height: 465px;
-  left: 183px;
+  /* left: 183px; */
 }
 .AboutusTitlecon {
   margin-top: 20%;
@@ -364,7 +388,7 @@ p.aboutusjontext {
   position: absolute;
   width: 612px;
   height: 465px;
-  left: 950px !important;
+  left: 820px !important;
   top: 3%;
 }
 .Aboutusimgcontainer {
@@ -384,10 +408,16 @@ p.aboutusjontext {
 .Ourservices {
   height: 730px;
   width: 100%;
-  position: absolute;
-  top: 1490px;
+  position: relative;
+  /* top: 1490px; */
   left: 0px;
   background: #e7e8f2;
+}
+.Ourservicescontainer{
+  width: 1440px;
+  height: 730px;
+  left: 0px;
+  margin: auto;
 }
 .Ouservicestitle {
   text-align: center;
@@ -424,10 +454,10 @@ p.aboutusjontext {
 }
 .Ourservicesimg {
   position: relative;
-  width: 20%;
+  width: 375px;
   height: 484px;
-  top: 180px;
-  left: 16%;
+  top: 171px;
+  left: 6%;
   justify-content: space-around;
   float: left;
   margin-right: 5%;
@@ -448,10 +478,16 @@ p.aboutusjontext {
 .Product {
   height: 557px;
   width: 100%;
-  position: absolute;
-  top: 2220px;
+  position: relative;
+  /* top: 2220px; */
   left: 0px;
   background: linear-gradient(90.21deg, #dd1180 -22.82%, #203867 99.79%);
+}
+.Productcontainer{
+  width: 1440px;
+  height: 557px;
+  margin: auto;
+  left: 0px;
 }
 .Producttitle {
   text-align: center;
@@ -546,8 +582,13 @@ p.aboutusjontext {
   height: 1200px;
   width: 100%;
   background: #e7e8f2;
-  position: absolute;
-  top: 2790px;
+  position: relative;
+  /* top: 2790px; */
+}
+.LetsgoContainer{
+  width: 1440px;
+  height: 1200px;
+  margin: auto;
 }
 .Letsgotitle {
   text-align: center;
@@ -584,11 +625,11 @@ p.aboutusjontext {
 .LetsgoCardContainer {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  column-gap: 40px;
+  column-gap: 35px;
   position: absolute;
   justify-content: space-between;
   top: 110px;
-  left: 9.5%;
+  left: 12%;
   padding: 20px;
   margin-left: 1%;
   margin-inline-end: 1%;
@@ -825,7 +866,7 @@ input:focus-visible {
 .Rightlg {
   position: relative;
   width: 470px;
-  height: 944px;
+  height: 945px;
   left: 970px;
   top: -325px;
   background: linear-gradient(169.16deg, #263768 1.9%, #dd1180 100.54%);
@@ -875,13 +916,21 @@ input::-webkit-inner-spin-button {
 }
 .MVimgcon1 {
   width: 669px;
-  height: 851px;
+  height: 870px;
   position: absolute;
   left: 50%;
-  top: 150px;
+  top: 155px;
 }
 .OTPSeparator {
   color: white !important;
+}
+.MVRightlg {
+  position: relative;
+  width: 470px;
+  height: 969.5px;
+  left: 970px;
+  top: -325px;
+  background: linear-gradient(169.16deg, #263768 1.9%, #dd1180 100.54%);
 }
 /* Used for Agree-Confirming */
 .ACh2 {
@@ -926,10 +975,18 @@ input::-webkit-inner-spin-button {
 }
 .acimgcon1{
     width: 680px;
-    height: 731px;
+    height: 775px;
     position: absolute;
     left: 50%;
-    top: 28%;
+    top: 25%;
+}
+.ACRightlg {
+  position: relative;
+  width: 470px;
+  height: 990px;
+  left: 970px;
+  top: -325px;
+  background: linear-gradient(169.16deg, #263768 1.9%, #dd1180 100.54%);
 }
 /* Used for Registered */
 .REiconcon{
@@ -973,7 +1030,7 @@ input::-webkit-inner-spin-button {
 .UIlg {
   position: relative;
   width: 470px;
-  height: 942px;
+  height: 980px;
   left: 968px;
   top: -623px;
   background: linear-gradient(169.16deg, #263768 1.9%, #dd1180 100.54%);
@@ -1030,7 +1087,7 @@ input::-webkit-inner-spin-button {
 .Loginlg {
   position: relative;
   width: 470px;
-  height: 942px;
+  height: 960px;
   left: 968px;
   top: -420px;
   background: linear-gradient(169.16deg, #263768 1.9%, #dd1180 100.54%);
@@ -1051,6 +1108,14 @@ input::-webkit-inner-spin-button {
   width: 315px;
   height: 43px;
   color: #333333;
+}
+.FPRightlg {
+  position: relative;
+  width: 470px;
+  height: 990px;
+  left: 968px;
+  top: -30px;
+  background: linear-gradient(169.16deg, #263768 1.9%, #dd1180 100.54%);
 }
 .SUsubtextcon1{
   position: relative;

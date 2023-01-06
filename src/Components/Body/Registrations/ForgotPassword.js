@@ -29,7 +29,7 @@ function ForgotPassword(){
                     <h2 className="Formtitle">Don't Have an account?<Nav.Link className="SUbut" as={Link} to="/Signup"> <span className="SUsignin"> Sign Up</span></Nav.Link> </h2>
                     
                 </div>
-                <div className="Rightlg"></div>
+                <div className="FPRightlg"></div>
                 <div className="SUimgcon1"><img className="SUimg1" src={signupimg} alt="SignupImage"/></div>
             </div>
         </>

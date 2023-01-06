@@ -29,7 +29,7 @@ function AgreeConfirming(){
                     {/* <div className="AHAAcon"><h2 className="Formtitle">Already Have an account?</h2><span className="SUsignin"> Sign In</span></div> */}
                 </div>
                 <div className="SUbuttoncon"><Nav.Link className="SUbut" as={Link} to="/Registered"><Button className="SUbutton">CONFIRM</Button></Nav.Link></div>
-                <div className="Rightlg"></div>
+                <div className="ACRightlg"></div>
                 <div className="acimgcon1"><img className="SUimg1" src={ACimg} alt="Signup Image"/></div>
             </div>
         </>

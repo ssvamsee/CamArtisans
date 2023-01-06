@@ -6,6 +6,7 @@ function Ourservices(){
     return(
         <>
         <div className="Ourservices" id="services">
+            <div className='Ourservicescontainer'>
             <div className="Ouservicestitle">
                 <h2>OUR SERVICES</h2>
                 <div className="ourservicehr"></div>
@@ -23,6 +24,7 @@ function Ourservices(){
                     <img className='OSIMG' src={img3} alt="OSIMG"/>
                     <h2 className='OSIMGtext'>NOT FOR PROFIT</h2>
                 </div>
+            </div>
             </div>
         </div>
         </>
