@@ -1,13 +1,9 @@
-import { useState } from "react";
 import { Button, Form, Nav } from "react-bootstrap";
-import PhoneInput from 'react-phone-number-input';
-import camartisans from "../../../Assets/Images/CamArtisans-1.png";
 import 'react-phone-number-input/style.css';
 import signupimg from "../../../Assets/Images/signup.png"
 import { Link } from "react-router-dom";
 
 function ForgotPassword(){
-    const[value,setValue]=useState();
     return(
         <>
             <div className="Signup">
@@ -30,11 +26,11 @@ function ForgotPassword(){
                 </div>
                 <div className="SUbuttoncon"><Nav.Link className="SUbut" as={Link} to="/ResetPassword"><Button className="SUbutton">FORGOT PASSWORD</Button></Nav.Link></div>
                 <div className="Loginsignupcon">
-                    <h2 className="Formtitle">Don’t Have an account?<Nav.Link className="SUbut" as={Link} to="/Signup"> <span className="SUsignin"> Sign Up</span></Nav.Link> </h2>
+                    <h2 className="Formtitle">Don't Have an account?<Nav.Link className="SUbut" as={Link} to="/Signup"> <span className="SUsignin"> Sign Up</span></Nav.Link> </h2>
                     
                 </div>
                 <div className="Rightlg"></div>
-                <div className="SUimgcon1"><img className="SUimg1" src={signupimg} alt="Signup Image"/></div>
+                <div className="SUimgcon1"><img className="SUimg1" src={signupimg} alt="SignupImage"/></div>
             </div>
         </>
     );

@@ -1,13 +1,10 @@
-import { useState } from "react";
 import { Button, Form, Nav } from "react-bootstrap";
-import PhoneInput from 'react-phone-number-input';
 import camartisans from "../../../Assets/Images/CamArtisans-1.png";
 import 'react-phone-number-input/style.css';
 import Loginimg from "../../../Assets/Images/login.png"
 import { Link } from "react-router-dom";
 
 function Login(){
-    const[value,setValue]=useState();
     return(
         <>
             <div className="Signup">
@@ -39,7 +36,7 @@ function Login(){
                     
                 </div>
                 <div className="Loginlg"></div>
-                <div className="Loginimgcon1"><img className="SUimg1" src={Loginimg} alt="Login Image"/></div>
+                <div className="Loginimgcon1"><img className="SUimg1" src={Loginimg} alt="LoginImage"/></div>
             </div>
         </>
     );

@@ -1,13 +1,9 @@
-import { useState } from "react";
 import { Button, Form, Nav } from "react-bootstrap";
-import PhoneInput from 'react-phone-number-input';
-import camartisans from "../../../Assets/Images/CamArtisans-1.png";
 import 'react-phone-number-input/style.css';
 import signupimg from "../../../Assets/Images/signup.png"
 import { Link } from "react-router-dom";
 
 function ResetPassword(){
-    const[value,setValue]=useState();
     return(
         <>
             <div className="Signup">
@@ -18,19 +14,19 @@ function ResetPassword(){
                 <div className="SUsubtextcon1"><span className="Susubtext">Welcome to the photographer application process. Let’s begin by getting to know each other. Please provide your mobile number below to start.</span></div>
                 <div className="Mobilecon">
                 <Form>
-              <Form.Group className="mb-3" controlId="formBasicEmail">
-                <Form.Label className="Formtitlecon">
-                  <h2 className="Formtitle">Enter New Password</h2>
-                </Form.Label>
-                <Form.Control className="UIInputFeild" type="password" />
+                  <Form.Group className="mb-3" controlId="formBasicEmail">
+                    <Form.Label className="Formtitlecon">
+                      <h2 className="Formtitle">Enter New Password</h2>
+                    </Form.Label>
+                    <Form.Control className="UIInputFeild" type="password" />
                 
-                <Form.Label className="Formtitlecon">
-                  <h2 className="Formtitle">Confirm Password</h2>
-                </Form.Label>
-                <Form.Control className="UIInputFeild" type="password" />
+                    <Form.Label className="Formtitlecon">
+                    <h2 className="Formtitle">Confirm Password</h2>
+                    </Form.Label>
+                    <Form.Control className="UIInputFeild" type="password" />
                
-              </Form.Group>
-            </Form>
+                  </Form.Group>
+                </Form>
                     {/* <div className="AHAAcon"><h2 className="Formtitle">Already Have an account?</h2><span className="SUsignin"> Sign In</span></div> */}
                 </div>
                 <div className="SUbuttoncon"><Nav.Link className="SUbut" as={Link} to="/MobileVerification"><Button className="SUbutton">Reset Password</Button></Nav.Link></div>
@@ -38,7 +34,7 @@ function ResetPassword(){
                     <h2 className="Formtitle">Don’t Have an account?<Nav.Link className="SUbut" as={Link} to="/Signup"> <span className="SUsignin"> Sign Up</span></Nav.Link> </h2>
                 </div>
                 <div className="Rightlg"></div>
-                <div className="SUimgcon1"><img className="SUimg1" src={signupimg} alt="Signup Image"/></div>
+                <div className="SUimgcon1"><img className="SUimg1" src={signupimg} alt="SignupImage"/></div>
             </div>
         </>
     );

@@ -1,13 +1,9 @@
 import React, { Component } from "react";
-import { useState } from "react";
 import { Button, Form, Nav } from "react-bootstrap";
-import PhoneInput from "react-phone-number-input";
 import camartisans from "../../../Assets/Images/CamArtisans-1.png";
 import "react-phone-number-input/style.css";
 import R2 from "../../../Assets/Images/R2.png";
 import { Link } from "react-router-dom";
-import MVimg from "../../../Assets/Images/MV.png";
-import OtpInput from "react-otp-input";
 
 export default class UserInformation extends Component {
   state = { otp: "" };
@@ -67,7 +63,7 @@ export default class UserInformation extends Component {
           </div>
           <div className="UIlg"></div>
           <div className="MVimgcon1">
-            <img className="UIGirlPic" src={R2} alt="Signup Image" />
+            <img className="UIGirlPic" src={R2} alt="SignupImage" />
           </div>
         </div>
       </>

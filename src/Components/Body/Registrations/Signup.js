@@ -36,7 +36,7 @@ function Signup(){
                 </div>
                 <div className="SUbuttoncon"><Nav.Link className="SUbut" as={Link} to="/MobileVerification"><Button className="SUbutton">SEND OTP</Button></Nav.Link></div>
                 <div className="Rightlg"></div>
-                <div className="SUimgcon1"><img className="SUimg1" src={signupimg} alt="Signup Image"/></div>
+                <div className="SUimgcon1"><img className="SUimg1" src={signupimg} alt="SignupImage"/></div>
             </div>
         </>
     );
