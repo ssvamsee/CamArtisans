@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/CamArtisans/static/css/main.ac5f11cc.css",
+    "main.css": "/CamArtisans/static/css/main.eb60c9fc.css",
     "main.js": "/CamArtisans/static/js/main.ea04cd8e.js",
     "static/js/787.33bbadf1.chunk.js": "/CamArtisans/static/js/787.33bbadf1.chunk.js",
     "static/media/register.png": "/CamArtisans/static/media/register.4fa5441b10d6e37b49fc.png",
@@ -18,12 +18,12 @@
     "static/media/Fashion.png": "/CamArtisans/static/media/Fashion.a13b526b09382456260c.png",
     "static/media/logo.png": "/CamArtisans/static/media/logo.a6902a26d8894221bebb.png",
     "index.html": "/CamArtisans/index.html",
-    "main.ac5f11cc.css.map": "/CamArtisans/static/css/main.ac5f11cc.css.map",
+    "main.eb60c9fc.css.map": "/CamArtisans/static/css/main.eb60c9fc.css.map",
     "main.ea04cd8e.js.map": "/CamArtisans/static/js/main.ea04cd8e.js.map",
     "787.33bbadf1.chunk.js.map": "/CamArtisans/static/js/787.33bbadf1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac5f11cc.css",
+    "static/css/main.eb60c9fc.css",
     "static/js/main.ea04cd8e.js"
   ]
 }
