@@ -1,5 +1,5 @@
 import React from 'react';
-import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon, MDBInput } from 'mdb-react-ui-kit';
+import { MDBFooter, MDBContainer, MDBRow, MDBCol} from 'mdb-react-ui-kit';
 import icon from "../../Assets/Images/buttonicon.png";
 import camartisans from "../../Assets/Images/CamArtisans.png";
 import fimg from "../../Assets/Images/Fimg.png"
@@ -14,32 +14,32 @@ export default function Footer() {
             <MDBCol md='2' lg='2' xl='2' className='mx-auto mb-4 mt-5'>
               <h6 className='text-uppercase fw-bold mb-4'>Product</h6>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='/Home' className='text-reset'>
                   Book Shoot
                 </a>
               </p>
               <p>
-                <a href='#!' className='footertextJON'>
+                <a href='/Home' className='footertextJON'>
                   Join Our Network
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='/Home' className='text-reset'>
                   Cost Calculator
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='/Home' className='text-reset'>
                   Print
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='/Home' className='text-reset'>
                   Shift Planner
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='/Home' className='text-reset'>
                   Recruiting
                 </a>
               </p>
@@ -48,17 +48,17 @@ export default function Footer() {
             <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4 mt-5'>
               <h6 className='text-uppercase fw-bold mb-4'>Information</h6>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='/Home' className='text-reset'>
                   FAQ
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='/Home' className='text-reset'>
                   Blog
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='/Home' className='text-reset'>
                   Support
                 </a>
               </p>
@@ -66,22 +66,22 @@ export default function Footer() {
             <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4 mt-5'>
               <h6 className='text-uppercase fw-bold mb-4'>Company</h6>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='/Home' className='text-reset'>
                   About Us
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='/Home' className='text-reset'>
                   Core Team
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='/Home' className='text-reset'>
                   Careers
                 </a>
               </p>
               <p>
-                <a href='#!' className='text-reset'>
+                <a href='/Home' className='text-reset'>
                   Contact Us
                 </a>
               </p>
@@ -133,28 +133,22 @@ export default function Footer() {
               </div>
             </MDBCol>
             <MDBCol>
-        <div className='footericons'>
-        <MDBIcon color='secondary' icon='gem' className='me-3' />
-          <a href='/HomePage' className='me-4 text-reset'>
-            <MDBIcon color='secondary' fab icon='facebook-f' />
-          </a>
-          <a href='' className='me-4 text-reset'>
-            <MDBIcon color='secondary' fab icon='twitter' />
-          </a>
-          <a href='' className='me-4 text-reset'>
-            <MDBIcon color='secondary' fab icon='google' />
-          </a>
-          <a href='' className='me-4 text-reset'>
-            <MDBIcon color='secondary' fab icon='instagram' />
-          </a>
-          <a href='' className='me-4 text-reset'>
-            <MDBIcon color='secondary' fab icon='linkedin' />
-          </a>
-          <a href='' className='me-4 text-reset'>
-            <MDBIcon color='secondary' fab icon='github' />
-          </a>
-        </div>
-        </MDBCol>
+                  <div className='footericons'>
+                      <a href='www.google.com' className='btn btn-outline-light btn-floating me-4' role="button">
+                          <i class="fab fa-instagram"></i>
+                      </a>
+                      <a href='www.google.com' className='btn btn-outline-light btn-floating me-4' role="button">
+                          <i class="fab fa-linkedin-in"></i>
+                      </a>
+                      <a href='www.google.com' className='btn btn-outline-light btn-floating me-4' role="button">
+                      {/* <MDBIcon color='secondary' icon='facebook-f' /> */}
+                          <i class="fab fa-facebook-f"></i>
+                      </a>
+                      <a href='www.google.com' className='btn btn-outline-light btn-floating me-4' role="button">
+                          <i class="fab fa-twitter"></i>
+                      </a>       
+                  </div>
+            </MDBCol>
         <div className='tpc'>
         <div className='text-center p-4 tpctext'>
               Terms
@@ -166,7 +160,7 @@ export default function Footer() {
               Cookies
         </div>
         </div>
-        <div className='text-center p-4 copyright'>Copyright © 2022. Trevista Innovations. All Rights Reserved</div>
+        <div className='text-center p-4 copyright'>Copyright © {new Date().getFullYear()}. Trevista Innovations. All Rights Reserved</div>
       </MDBRow>
       </section>
 

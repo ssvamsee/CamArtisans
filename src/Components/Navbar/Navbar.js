@@ -14,15 +14,19 @@ import ForgotPassword from '../Body/Registrations/ForgotPassword';
 import Login from '../Body/Registrations/Login';
 import ResetPassword from '../Body/Registrations/ResetPassword';
 import UserInformation from '../Body/Registrations/UserInformation';
-import Ourservices from '../Body/Homepage/Ourservices';
+// import Ourservices from '../Body/Homepage/Ourservices';
+import Categories from '../Body/Categories/Categories';
+import BSCategory from '../Body/Categories/Business/Business-Category';
+import PSCategory from '../Body/Categories/Personal/Personal-Category';
+import NFPCategory from '../Body/Categories/Not_for_Profit/NFP-Category';
 
 function NavBar() {
-  const handleClickScroll = () => {
-    const element = document.getElementById('services');
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
+  // const handleClickScroll = () => {
+  //   const element = document.getElementById('services');
+  //   if (element) {
+  //     element.scrollIntoView({ behavior: 'smooth' });
+  //   }
+  // };
   return (
     <>
     <Navbar collapseOnSelect expand="md" variant="dark" className='Navbar_main'>
@@ -33,7 +37,7 @@ function NavBar() {
           <Nav className="ms-auto my-2 my-xxl-0 gap-4 me-5">
           <Nav.Link className='navbar_link' as={Link} to="/HomePage" eventKey="1">Home</Nav.Link>
           <Nav.Link className='navbar_link' as={Link} to="/About" eventKey="1">About</Nav.Link>
-          <Nav.Link className='navbar_link' as={Link} to="/Services" eventKey="1" onClick={handleClickScroll}>Services</Nav.Link>
+          <Nav.Link className='navbar_link' as={Link} to="/Services" eventKey="1">Services</Nav.Link>
           <Nav.Link className='navbar_link' as={Link} to="/Contact" eventKey="1">Contact</Nav.Link>       
           </Nav>
           <Nav.Link className="navbut" as={Link} to="/Login">  <Button className='loginbutton'>Login<img className='buttonicon' src={icon} alt="icon"/></Button></Nav.Link>
@@ -54,7 +58,11 @@ function NavBar() {
             <Route path='/Login' element={<Login/>}/>
             <Route path='/ResetPassword' element={<ResetPassword/>}/>
             <Route path='/UserInformation' element={<UserInformation/>}/>
-            <Route path='/Services' element={<Ourservices/>}/>
+            <Route path='/Services' element={<Categories/>}/>
+            <Route path='/Business-Category' element={<BSCategory/>}/>
+            <Route path='/Personal-Category' element={<PSCategory/>}/>
+            <Route path='/NFP-Category' element={<NFPCategory/>}/>
+
         </Routes>
     </div>
     </>
