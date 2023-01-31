@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/CamCrew/static/css/main.79e65a0d.css",
-    "main.js": "/CamCrew/static/js/main.f3dd1f2e.js",
-    "static/js/787.3807bd9a.chunk.js": "/CamCrew/static/js/787.3807bd9a.chunk.js",
-    "static/media/register.png": "/CamCrew/static/media/register.4fa5441b10d6e37b49fc.png",
-    "static/media/AC.png": "/CamCrew/static/media/AC.f14acbf3f3209106b82f.png",
-    "static/media/login.png": "/CamCrew/static/media/login.ceecd181214b0f957478.png",
-    "static/media/homepage-1.png": "/CamCrew/static/media/homepage-1.6a3354b7d7425099b1e5.png",
-    "static/media/aboutsus.png": "/CamCrew/static/media/aboutsus.b00dbf9e6ab824233ce1.png",
-    "static/media/productspage.png": "/CamCrew/static/media/productspage.96f95024aa6b54dfe137.png",
-    "static/media/signup.png": "/CamCrew/static/media/signup.dac63111a11ab522037f.png",
-    "static/media/R2.png": "/CamCrew/static/media/R2.8dbb28d2caf2c5327241.png",
-    "static/media/ourservice1.png": "/CamCrew/static/media/ourservice1.91a9360b5d9e03fc1b90.png",
-    "static/media/ourservice2.png": "/CamCrew/static/media/ourservice2.493afbed3b86ad129363.png",
-    "static/media/MV.png": "/CamCrew/static/media/MV.36f17df4429752604612.png",
-    "static/media/ourservice3.png": "/CamCrew/static/media/ourservice3.13663948602dadccda50.png",
-    "static/media/Fashion.png": "/CamCrew/static/media/Fashion.a13b526b09382456260c.png",
-    "static/media/logo.png": "/CamCrew/static/media/logo.a6902a26d8894221bebb.png",
-    "index.html": "/CamCrew/index.html",
-    "main.79e65a0d.css.map": "/CamCrew/static/css/main.79e65a0d.css.map",
-    "main.f3dd1f2e.js.map": "/CamCrew/static/js/main.f3dd1f2e.js.map",
-    "787.3807bd9a.chunk.js.map": "/CamCrew/static/js/787.3807bd9a.chunk.js.map"
+    "main.css": "/CamArtisans/static/css/main.79e65a0d.css",
+    "main.js": "/CamArtisans/static/js/main.f87943f5.js",
+    "static/js/787.3dce7c94.chunk.js": "/CamArtisans/static/js/787.3dce7c94.chunk.js",
+    "static/media/register.png": "/CamArtisans/static/media/register.4fa5441b10d6e37b49fc.png",
+    "static/media/AC.png": "/CamArtisans/static/media/AC.f14acbf3f3209106b82f.png",
+    "static/media/login.png": "/CamArtisans/static/media/login.ceecd181214b0f957478.png",
+    "static/media/homepage-1.png": "/CamArtisans/static/media/homepage-1.6a3354b7d7425099b1e5.png",
+    "static/media/aboutsus.png": "/CamArtisans/static/media/aboutsus.b00dbf9e6ab824233ce1.png",
+    "static/media/productspage.png": "/CamArtisans/static/media/productspage.96f95024aa6b54dfe137.png",
+    "static/media/signup.png": "/CamArtisans/static/media/signup.dac63111a11ab522037f.png",
+    "static/media/R2.png": "/CamArtisans/static/media/R2.8dbb28d2caf2c5327241.png",
+    "static/media/ourservice1.png": "/CamArtisans/static/media/ourservice1.91a9360b5d9e03fc1b90.png",
+    "static/media/ourservice2.png": "/CamArtisans/static/media/ourservice2.493afbed3b86ad129363.png",
+    "static/media/MV.png": "/CamArtisans/static/media/MV.36f17df4429752604612.png",
+    "static/media/ourservice3.png": "/CamArtisans/static/media/ourservice3.13663948602dadccda50.png",
+    "static/media/Fashion.png": "/CamArtisans/static/media/Fashion.a13b526b09382456260c.png",
+    "static/media/logo.png": "/CamArtisans/static/media/logo.a6902a26d8894221bebb.png",
+    "index.html": "/CamArtisans/index.html",
+    "main.79e65a0d.css.map": "/CamArtisans/static/css/main.79e65a0d.css.map",
+    "main.f87943f5.js.map": "/CamArtisans/static/js/main.f87943f5.js.map",
+    "787.3dce7c94.chunk.js.map": "/CamArtisans/static/js/787.3dce7c94.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.79e65a0d.css",
-    "static/js/main.f3dd1f2e.js"
+    "static/js/main.f87943f5.js"
   ]
 }
